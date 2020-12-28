@@ -1,0 +1,37 @@
+/*
+  Name: global.css
+  Purpose: General layout styles for webpage
+*/
+
+:root {
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(248, 248, 248);
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 800px 1fr;
+  grid-template-rows: auto 600px 1fr;
+  grid-template-areas:
+    "header header header"
+    ". game ."
+    "footer footer footer";
+}
+
+canvas {
+  grid-area: game;
+}
+
+div.header {
+  grid-area: header;
+  background-color: rgb(106, 177, 243);
+  margin-bottom: 1em;
+  font-size: 1rem;
+  color: white;
+}
+
+div.header > h1 {
+  margin-left: 1rem;
+}

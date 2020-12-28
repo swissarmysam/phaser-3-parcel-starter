@@ -1,0 +1,30 @@
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.vscode
+Desktop.ini
+
+# Web Stuffs #
+##############
+.git
+node_modules/
+
+# Build #
+#########
+/npm-debug.log
+dist/
+.cache
+
+# Assets #
+##########
+*.mp3
+*.ogg
+*.woff
+*.woff2
+
